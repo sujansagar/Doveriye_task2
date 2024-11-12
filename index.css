@@ -1,0 +1,103 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+
+.card {
+    background: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.card-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.status {
+    background-color: #39d576;
+    color: #fff;
+    border-radius: 15px;
+    padding: 4px 10px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+
+.rate {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.company {
+    color: #888;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.tags {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+.tag {
+    background: #f0f0f0;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+#tag4{
+    background-color: #007bff;
+}
+
+.description {
+    color: #555;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.view-job {
+    display: inline-block;
+    padding: 8px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#part{
+    background-color: #ffa500;
+}
